@@ -1,2 +1,2 @@
 # HenryCourseRepo
-Repositorio de pruebitas uwu
+Repositorio primer primerísimo jijiji
