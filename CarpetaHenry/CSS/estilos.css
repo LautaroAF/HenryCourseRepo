@@ -1,0 +1,40 @@
+body{ /*Es el selector de etiquetas (body, footer, main, etc)*/
+    background-color: beige;
+}
+
+.title{ /*es una clase para un elemento en general y puede ser compartido con varios elementos; tiene prioridad sobre una etiqueta*/
+    font-size: 6em; /*EM es la unidad relativa de tamaño de una fuente, es decir, em = font-size * tamaño original de la fuente*/
+    color:blueviolet;
+}
+
+.animal{
+    width: 500px; /*Seimpre SIEMPRE especificá los píxeles, tarado*/
+    height: 420px;
+}
+
+.cards{
+    border: 3px solid black;
+    width: fit-content;
+    padding: 0px 1em 5px 1em;
+    border-radius: 7%;
+    
+    transition: 0.4s;
+}
+
+.cards:hover{
+    background-color: rgb(80, 177, 123);
+}
+
+#penu{ /*es una ID específica para UN solo elemento y no puede ser compartido; tiene prioridad sobre la class*/
+    background-color: aqua;
+    font-size: 5em;
+}
+
+#mainTitles{
+    border: 2px solid black;
+    width: 55vw;
+    height: 30vh;
+
+    margin: auto; /*margen exterior respecto a los elementos que rodean este elemento*/
+    padding: 3em;
+}
